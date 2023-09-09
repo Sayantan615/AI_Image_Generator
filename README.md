@@ -77,13 +77,6 @@ OpenAI's Language Models (LLMs) are at the forefront of natural language underst
 
 OpenAI offers different versions of these models, each with its unique capabilities and use cases. Be sure to refer to OpenAI's documentation for details on model selection and API usage.
 
-## Contributing
-
-We welcome contributions from the community! If you'd like to contribute to this project, please follow our [Contribution Guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
