@@ -48,7 +48,7 @@ To get started with this project, follow these steps:
    You'll need an API key from OpenAI to use their services. Create a `.env` file in the project root and add your API key like this:
 
    ```
-   API_KEY=your_api_key_here
+   VITE_API_KEY=your_api_key_here # Using VITE as prefix is important otherwise it will not work
    ```
 
 4. **Start the Development Server:**

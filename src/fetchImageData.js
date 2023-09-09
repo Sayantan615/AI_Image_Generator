@@ -1,6 +1,6 @@
 async function fetchImageDataArr(prompt) {
   const apiUrl = "https://api.openai.com/v1/images/generations";
-  const apikey = "";
+  const apikey = import.meta.env.VITE_API_KEY;
   console.log(apiUrl, apikey);
   const requestBody = {
     prompt,

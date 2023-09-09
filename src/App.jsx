@@ -42,28 +42,28 @@ function App() {
             {loading == true ? (
               <div style={styleObj}>"Loading..."</div>
             ) : (
-              <img src={imagesArr.length ? imagesArr[0].url : ""} alt=""></img>
+              <img src={imagesArr && imagesArr.length ? imagesArr[0].url : ""} alt=""></img>
             )}
           </div>
           <div className="placeholder">
             {loading == true ? (
               <div style={styleObj}>"Loading..."</div>
             ) : (
-              <img src={imagesArr.length ? imagesArr[1].url : ""} alt=""></img>
+              <img src={imagesArr && imagesArr.length ? imagesArr[1].url : ""} alt=""></img>
             )}
           </div>
           <div className="placeholder">
             {loading == true ? (
               <div style={styleObj}>"Loading..."</div>
             ) : (
-              <img src={imagesArr.length ? imagesArr[2].url : ""} alt=""></img>
+              <img src={imagesArr && imagesArr.length ? imagesArr[2].url : ""} alt=""></img>
             )}
           </div>
           <div className="placeholder">
             {loading == true ? (
               <div style={styleObj}>"Loading..."</div>
             ) : (
-              <img src={imagesArr.length ? imagesArr[3].url : ""} alt=""></img>
+              <img src={imagesArr && imagesArr.length ? imagesArr[3].url : ""} alt=""></img>
             )}
           </div>
         </div>
