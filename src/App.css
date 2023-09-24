@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #121212;
+  background-color: #444;
   color: #fff;
   margin: 0;
   padding: 0;
@@ -14,12 +14,14 @@ body {
 
 h1 {
   font-size: 2.5rem;
-  color: #007bff;
+  color: white;
 }
 
 .container {
   max-width: 600px;
-  background-color: #4b4a4a;
+  background: rgba(9, 9, 9, 0.5);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
   box-shadow: 0 0 10px rgba(64, 62, 62, 0.3);
   border-radius: 10px;
   margin: 0 auto;
@@ -55,7 +57,7 @@ h1 {
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
   grid-gap: 1.5rem;
-  padding-bottom: 20px;
+  padding: 0px 20px 20px;
 }
 .placeholder {
   width: 256px; /* 1024x1024px; */
@@ -63,7 +65,15 @@ h1 {
   border-radius: 10px;
   border: 1px solid gray;
   background-color: #fff;
+  overflow: hidden;
 }
 img {
-  object-fit: fit;
+  height: inherit;
+  width: inherit;
+  border-radius: 10px;
+}
+a {
+  height: inherit;
+  width: inherit;
+  border-radius: 10px;
 }

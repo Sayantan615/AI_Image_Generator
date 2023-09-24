@@ -22,7 +22,7 @@ function App() {
   };
   return (
     <>
-      <h1>ImgGen</h1>
+      <h1>Image Generator</h1>
       <div className="container">
         <div className="input_wrapper">
           <input
@@ -42,30 +42,51 @@ function App() {
             {loading == true ? (
               <div style={styleObj}>"Loading..."</div>
             ) : (
-              <img src={imagesArr && imagesArr.length ? imagesArr[0].url : ""} alt=""></img>
+              <a href={imagesArr && imagesArr.length ? imagesArr[0].url : ""} target="_blank">
+                <img
+                  src={imagesArr && imagesArr.length ? imagesArr[0].url : ""}
+                  alt=""
+                ></img>
+              </a>
             )}
           </div>
           <div className="placeholder">
             {loading == true ? (
               <div style={styleObj}>"Loading..."</div>
             ) : (
-              <img src={imagesArr && imagesArr.length ? imagesArr[1].url : ""} alt=""></img>
+              <a href={imagesArr && imagesArr.length ? imagesArr[1].url : ""} target="_blank">
+                <img
+                  src={imagesArr && imagesArr.length ? imagesArr[1].url : ""}
+                  alt=""
+                ></img>
+              </a>
             )}
           </div>
           <div className="placeholder">
             {loading == true ? (
               <div style={styleObj}>"Loading..."</div>
             ) : (
-              <img src={imagesArr && imagesArr.length ? imagesArr[2].url : ""} alt=""></img>
+              <a href={imagesArr && imagesArr.length ? imagesArr[2].url : ""} target="_blank">
+                <img
+                  src={imagesArr && imagesArr.length ? imagesArr[2].url : ""}
+                  alt=""
+                ></img>
+              </a>
             )}
           </div>
           <div className="placeholder">
             {loading == true ? (
               <div style={styleObj}>"Loading..."</div>
             ) : (
-              <img src={imagesArr && imagesArr.length ? imagesArr[3].url : ""} alt=""></img>
+              <a href={imagesArr && imagesArr.length ? imagesArr[3].url : ""} target="_blank">
+                <img
+                  src={imagesArr && imagesArr.length ? imagesArr[3].url : ""}
+                  alt=""
+                ></img>
+              </a>
             )}
           </div>
+          
         </div>
       </div>
     </>
